@@ -112,7 +112,7 @@ footer {
     .titulo {
         font-size: 36px;
     }
-    #titulo_desculpa1, titulo_desculpa2, texto_previsao {
+    #titulo_desculpa1, #titulo_desculpa2, #texto_previsao {
         font-size: 16px;
     }
     
