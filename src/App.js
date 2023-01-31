@@ -36,8 +36,8 @@ function App() {
         div className = 'inicio' >
         <
         h1 className = 'titulo' > Parabéns!! < /h1> <
-        p id = 'texto_desculpa1' > Aqui é para ficar algo super legal, ou pelo menos eu achei beeem divertido e memorável. < /p> <
-        p id = 'texto_desculpa2' > Como não temos um script da vida, infelizmente tive problemas com o conteúdo da página, mas não se preocupe!Em breve você conseguirá ver!! < /p> <
+        p className = 'texto_desculpa1' > Aqui é para ficar algo super legal, ou pelo menos eu achei beeem divertido e memorável. < /p> <
+        p className = 'texto_desculpa2' > Como não temos um script da vida, infelizmente tive problemas com o conteúdo da página, mas não se preocupe!Em breve você conseguirá ver!! < /p> <
         /div> <
         div className = 'gif_1' >
         <
@@ -51,8 +51,8 @@ function App() {
         <
         div className = 'meio' >
         <
-        h2 id = 'titulo2' > A entrega já está pertinha, logo mais você conseguirá acessar corretamente a partir do dia 14 / 02! < /h2> <
-            p id = 'texto_previsao' > Então fica sussa e aproveite para baixar a sua imagem e poupar tinta de baleia😎😎 < /p> <
+        h2 className = 'titulo2' > A entrega já está pertinha, logo mais você conseguirá acessar corretamente a partir do dia 14 / 02! < /h2> <
+            p className = 'texto_previsao' > Então fica sussa e aproveite para baixar a sua imagem e poupar tinta de baleia😎😎 < /p> <
             /div> <
             div className = 'final' >
             <
