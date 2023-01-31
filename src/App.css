@@ -109,14 +109,15 @@ footer {
 }
 
 @media (max-width: 620px) {
-    h1 {
+    .titulo {
         font-size: 36px;
     }
-    h2 {
-        font-size: 24px;
-    }
-    p {
+    #titulo_desculpa1, titulo_desculpa2, texto_previsao {
         font-size: 16px;
+    }
+    
+    #titulo2 {
+       font-size: 32px; 
     }
 }
 
