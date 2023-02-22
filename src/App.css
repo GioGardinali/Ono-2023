@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+}
+
+h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  padding: 0;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.inicio {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.texto_previsao {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 0 20px;
+}
+
+.meio {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.final {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 0 120px 0;
+  flex-wrap: wrap;
+}
+
+body {
+  max-width: 100vw;
+  background: rgb(248, 248, 248);
+  margin: 0px;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.gif_1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.img_footer,
+.img_header {
+  width: 100%;
+}
+
+.download_foto {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background: #0066a2;
+  color: white;
+  border-style: outset;
+  border-color: #0066a2;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+footer {
+  bottom: 0;
+}
+
+label {
+  font-size: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  margin: 20px;
+}
+.mensagem2 {
+  text-align: center;
+}
+
+.forms {
+  text-align: center;
+  margin: auto;
+  display: Block;
+}
+
+.formulario {
+  width: 508px;
+  height: 617px;
+  margin: auto;
+  display: block;
+
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 70px;
+
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+
+  background: rgba(255, 255, 190, 0.74);
+  border-radius: 40px;
+  filter: drop-shadow(6px 10px 30px #c3af5e);
+}
+
+.socialButton {
+  margin-top: 20px;
+  display: inline-flex;
+}
+
+#email,
+#assunto {
+  width: 424px;
+  height: 46px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+  background: #f8f8f8;
+  border-radius: 20px;
+  border: none;
+}
+
+#mensagem {
+  width: 424px;
+  height: 176px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+
+  background: #f8f8f8;
+  border-radius: 30px;
+  border: none;
+}
+
+#btn-email {
+  width: 199px;
+  height: 54px;
+  background-image: url("./botao-email-noClick.svg");
+  border: none;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px;
+}
+
+#btn-wpp {
+  width: 199px;
+  height: 54px;
+  background-image: url("./botao-wpp-noClick.svg");
+  border: none;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 20px;
+}
+
+#btn-email:hover {
+  background-image: url("./botao-email-hover.svg");
+}
+
+#btn-wpp:hover {
+  background-image: url("./botao-wpp-hover.svg");
+}
+
+#btn-email:active {
+  background-image: url("./botao-email-click.svg");
+}
+
+#btn-wpp:active {
+  background-image: url("./botao-wpp-click.svg");
+}
+
+.img4 {
+  background-position: right;
+  text-align: right;
+  display: flex;
+  position: absolute;
+  top: 100px;
+}
+.img_4 {
+  cursor: pointer;
+  animation: changeBackgroundColor 3s infinite; /* propriedade de animação */
+  width: 30%;
+}
+
+.img_1{
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.img_2{
+    width: 30%;
+    margin: auto;
+    display: block;
+animation: changeBackgroundColor2 5s infinite; /* propriedade de animação */
+ 
+}
+
+@keyframes changeBackgroundColor2 {
+  75% {
+    background-image: url("./ono-Idea2.svg");
+
+  }
+}
+
+.img_3{
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+
+@keyframes changeBackgroundColor {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  75% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+@media (max-width: 620px) {
+  .titulo {
+    font-size: 36px;
+  }
+  .titulo_desculpa1,
+  .titulo_desculpa2,
+  .texto_previsao {
+    font-size: 16px;
+  }
+
+  .titulo2 {
+    font-size: 32px;
+  }
+}
