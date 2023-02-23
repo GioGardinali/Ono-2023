@@ -281,8 +281,7 @@ animation: changeBackgroundColor2 5s infinite; /* propriedade de animação */
   .texto_previsao {
     font-size: 16px;
   }
-
-  .titulo2 {
-    font-size: 32px;
+    p {
+    font-size: 16px;
   }
 }
