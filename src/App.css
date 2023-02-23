@@ -220,6 +220,7 @@ label {
   text-align: right;
   display: flex;
   position: absolute;
+  right: 70%;
   top: 100px;
 }
 .img_4 {
