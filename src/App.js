@@ -31,7 +31,8 @@ function App() {
       <header>
         
         <img src={cabecalho} className="img_header" alt="imagem de cabecalho" />
-        <a className="img4" href="https://drive.google.com/file/d/1bm_RYfErm_IZPKIOJqJv94MLo7QhKAmZ/view?usp=share_link">
+        <a className="img4" href="https://drive.google.com/file/d/1g2uSD4Hn6J0GYMkwE9w_UPV60LUvhGvD/view?usp=sharing">
+            
   <img
   className="img_4" src={caution} alt="carta apresentação"/>
     </a>
